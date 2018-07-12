@@ -1,0 +1,45 @@
+﻿<html>
+<body >
+<head>
+<link rel="stylesheet" type="text/css" href="rtrt.css"></head>
+<h1 style="text-align:center;">LEAVE APPLICATION</h1>
+<form action="/action_page.php">
+    Name:<br>
+  <input type="text" name="Name">
+<br>
+<br>
+department:<br>
+<input type="text" name="Department">
+<br>
+<br>
+Employeement .no
+<br>
+<input type="number" name=Employeement.no>
+<br>
+<br>
+Types of leave:<br>
+<select >
+<option value="--select--">--select--</option>
+<option value="sick leave">sick leave</option>
+<option value="casual leave">casual leave</option>
+<option value="earned leave">earned leave</option>
+<option value="sectional/national leave">sectional/national leave</option>
+<option value="maternity leave">maternity leave</option>
+<option value="paternity leave">paternity leave</option>
+<option value="transfer leave">transfer leave</option>
+</select>
+<br>
+<br>
+From date:
+<input type="date"  name="From date">From time<input type="time" name="From time">
+<br>
+<br>
+To   date:
+<input type ="date" name="To date">To time<input type="time" name="To time">
+<h2>Reason for leave</h2>
+<textarea name="reason" rows="10" cols="50"></textarea>
+<br><br>
+<input type="submit">                                        <input type="reset">
+</form>
+</body>
+</html>
